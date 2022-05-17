@@ -2,6 +2,7 @@
   width: 70%;
   height: 70%;
   border: 1px solid black;
+  margin-top: 50px;
   box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
     6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
     12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
@@ -44,4 +45,123 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+.skills-javascript {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 75px;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+.skills-html {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 75px;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+.skills-css {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 75px;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+.skills-typescript {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 75px;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+.skills-react {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 75px;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+.skills-materialui {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 75px;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+.skills-h6 {
+  font-size: 16px;
+  margin-left: 20px;
+  margin-bottom: 2px;
+}
+.skills-bar-container {
+  background-color: rgb(192, 192, 192);
+  width: 200px;
+  height: 5px;
+  margin-left: 20px;
+}
+.skills-bar-container-1 {
+  background-color: rgb(192, 192, 192);
+  width: 200px;
+  height: 5px;
+  margin-left: 20px;
+}
+.skills-bar-javascript {
+  width: 80%;
+  height: 5px;
+  background-color: rgb(229, 207, 33, 1);
+}
+.skills-bar-html {
+  width: 85%;
+  height: 5px;
+  background-color: rgb(225, 76, 39, 1);
+}
+.skills-bar-css {
+  width: 85%;
+  height: 5px;
+  background-color: rgb(55, 154, 214, 1);
+}
+.skills-bar-typescript {
+  width: 50%;
+  height: 5px;
+  background-color: rgb(2, 114, 192, 1);
+}
+.skills-bar-react {
+  width: 90%;
+  height: 5px;
+  background-color: rgb(94, 210, 241, 1);
+}
+.skills-bar-materialui {
+  width: 70%;
+  height: 5px;
+  background-color: rgb(33, 150, 243, 1);
 }
