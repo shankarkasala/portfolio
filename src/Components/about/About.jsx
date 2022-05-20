@@ -1,7 +1,7 @@
 import React from "react";
-
+import "./about.css";
 function About() {
-  return <div>About</div>;
+  return <div className="project-container">About</div>;
 }
 
 export default About;
