@@ -6,7 +6,6 @@ import Services from "./Components/services/Services";
 import About from "./Components/about/About";
 import Contact from "./Components/contact/Contact";
 // import Feater from "./Components/feater/Feater";
-console.log(this === window);
 
 function App() {
   return (
@@ -30,6 +29,10 @@ function App() {
         <About />
         <Contact/> */}
       </BrowserRouter>
+      <Services />
+
+      <About />
+      <Contact />
     </div>
   );
 }

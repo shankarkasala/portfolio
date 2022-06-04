@@ -7,17 +7,29 @@ function Navbar() {
       <h3 className="logo">.developer</h3>
       <ul className="nav-links">
         <li>
-          <Link to="/">Home</Link>
+          <a href="#home" smooth="true">
+            Home
+          </a>
+          {/* <Link to="#home">Home</Link> */}
         </li>
         <li>
-          <Link to="/services">Skills</Link>
+          <a href="#skill" smooth="true">
+            Skills
+          </a>
+          {/* <Link to="#services">Skills</Link> */}
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <a href="#about" smooth="true">
+            About
+          </a>
+          {/* <Link to="#about">About</Link> */}
         </li>
 
         <li>
-          <Link to="/contact">Contact</Link>
+          <a href="#contact" smooth="true">
+            Contact
+          </a>
+          {/* <Link to="#contact">Contact</Link> */}
         </li>
       </ul>
     </div>

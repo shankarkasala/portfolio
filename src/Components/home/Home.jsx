@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 import "./home.css";
 function Home() {
   return (
-    <div className="bg-img">
+    <div className="bg-img" id="home">
       <div className="text">
         <h1>Hello,</h1>
 

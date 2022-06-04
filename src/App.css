@@ -17,12 +17,27 @@ a {
   text-decoration: none;
   color: #fff;
 }
-
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+::-webkit-scrollbar-track {
+  background: #b4c5f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #102252;
+  border-bottom: 5px;
+}
+@supports (scrollbar-color: #b4c5f1 #102252) {
+  * {
+    scrollbar-color: #b4c5f1 #102252;
+  }
+}
 .container {
   height: 100vh;
   width: 100%;
-}
-.header {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
 }
 .content {
   height: 100vh;
