@@ -26,6 +26,9 @@ function App() {
         {/* <div className="feater">
           <Feater />
         </div> */}
+        {/* <Services />
+        <About />
+        <Contact/> */}
       </BrowserRouter>
     </div>
   );
