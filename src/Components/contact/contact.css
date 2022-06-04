@@ -2,8 +2,12 @@
   height: 100vh;
   min-width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+}
+.project-title {
+  color: #fff;
+  width: 40px;
 }
 .project-container {
   margin-top: 50px;

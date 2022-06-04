@@ -9,6 +9,8 @@ import material from "./Material-UI.png";
 function Services() {
   return (
     <div className="skills" id="skill">
+      <h2 className="project-title">Skills</h2>
+
       <div className="skills-box">
         <div className="skills-container">
           <div className="skills-left">

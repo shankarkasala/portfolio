@@ -5,6 +5,8 @@ import "./contact.css";
 function Contact() {
   return (
     <div className="contact" id="contact">
+      <h2 className="project-title">Contact</h2>
+
       <div className="project-container">
         <div className="contact-left">
           <div className="contact-text">

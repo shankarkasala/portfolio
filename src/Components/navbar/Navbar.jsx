@@ -20,7 +20,7 @@ function Navbar() {
         </li>
         <li>
           <a href="#about" smooth="true">
-            About
+            Projects
           </a>
           {/* <Link to="#about">About</Link> */}
         </li>

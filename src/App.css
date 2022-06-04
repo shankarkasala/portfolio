@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #102252;
+  background: #02152f;
 }
 html {
   font-size: 16px;
@@ -18,15 +18,15 @@ a {
   color: #fff;
 }
 ::-webkit-scrollbar {
-  width: 0.5em;
+  width: 0em;
 }
-::-webkit-scrollbar-track {
+/* ::-webkit-scrollbar-track {
   background: #b4c5f1;
 }
 ::-webkit-scrollbar-thumb {
   background: #102252;
   border-bottom: 5px;
-}
+} */
 @supports (scrollbar-color: #b4c5f1 #102252) {
   * {
     scrollbar-color: #b4c5f1 #102252;

@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/navbar/Navbar";
 import Home from "./Components/home/Home";
 import Services from "./Components/services/Services";
-import About from "./Components/about/About";
+import Projects from "./Components/about/Projects";
 import Contact from "./Components/contact/Contact";
-// import Feater from "./Components/feater/Feater";
+import Feater from "./Components/feater/Feater";
 
 function App() {
   return (
@@ -18,12 +18,11 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/about" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
         {/* <div className="feater">
-          <Feater />
         </div> */}
         {/* <Services />
         <About />
@@ -31,8 +30,9 @@ function App() {
       </BrowserRouter>
       <Services />
 
-      <About />
+      <Projects />
       <Contact />
+      <Feater />
     </div>
   );
 }
