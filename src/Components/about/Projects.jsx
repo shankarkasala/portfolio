@@ -3,7 +3,9 @@ import "./projects.css";
 function Projects() {
   return (
     <div className="projects" id="about">
-      <h2 className="project-title">Projects</h2>
+      <h2 className="project-title">
+        {"<"}Projects{"/>"}
+      </h2>
       <div className="project-container">
         <div className="projects-left">
           <div className="project-left-top"></div>

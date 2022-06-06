@@ -21,4 +21,12 @@
   justify-content: flex-end;
   list-style: none;
   width: 75%;
+  letter-spacing: 0.9px;
+  font-weight: 300;
+}
+.active {
+  width: 5px;
+  height: 1px;
+  background: crimson;
+  padding: 16px;
 }
