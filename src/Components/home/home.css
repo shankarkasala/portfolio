@@ -32,6 +32,13 @@
 h2 {
   color: crimson;
 }
+@media only screen and (max-width: 600px) {
+  .text {
+    font-size: 17px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
 /* .css-typing {
   height: 100%;
 }

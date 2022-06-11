@@ -20,6 +20,7 @@ a {
 ::-webkit-scrollbar {
   width: 0em;
 }
+
 /* ::-webkit-scrollbar-track {
   background: #b4c5f1;
 }
@@ -50,4 +51,10 @@ a {
 }
 .project-title {
   letter-spacing: 1.9px;
+}
+@media only screen and (max-width: 980px) {
+  .container {
+    width: 100%;
+    overflow-x: hidden;
+  }
 }

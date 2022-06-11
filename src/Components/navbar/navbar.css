@@ -30,3 +30,12 @@
   background: crimson;
   padding: 16px;
 }
+@media only screen and (max-width: 980px) {
+  .navbar {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .nav-links {
+    display: none;
+  }
+}
