@@ -9,7 +9,7 @@ function Contact() {
         {"<"}Contact{"/>"}
       </h2>
 
-      <div className="project-container">
+      <div className="contact-container">
         <div className="contact-left">
           <div className="contact-text">
             get back <br />
@@ -29,7 +29,7 @@ function Contact() {
         </div>
         <div className="contact-right">
           <div className="contact-top">
-            <div>
+            <div className="social-icon">
               <a
                 href="https://www.linkedin.com/in/kasala-umasankar/"
                 alt="linkdin"
@@ -43,6 +43,7 @@ function Contact() {
                   width="48"
                   height="48"
                   viewBox="0 0 48 48"
+                  className="icon"
                 >
                   <path
                     fill="#0288D1"
@@ -70,6 +71,7 @@ function Contact() {
                   width="48"
                   height="48"
                   viewBox="0 0 48 48"
+                  className="icon"
                 >
                   <path
                     fill="#fff"
@@ -109,6 +111,7 @@ function Contact() {
                   width="48"
                   height="48"
                   viewBox="0 0 48 48"
+                  className="icon"
                 >
                   <path
                     fill="#03A9F4"

@@ -1,5 +1,5 @@
 .projects {
-  min-width: 100%;
+  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: space-evenly;
@@ -161,4 +161,48 @@
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
+}
+@media only screen and (max-width: 980px) {
+  .projects {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .project-title {
+    display: none;
+  }
+  .project-container {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-left {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .projects-right {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .project-left-top {
+    width: 150px;
+    height: 150px;
+  }
+  .project-left-bottom {
+    width: 150px;
+    height: 150px;
+  }
+  .project-right-top {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+  }
+  .project-right-bottom {
+    width: 150px;
+    height: 150px;
+  }
 }

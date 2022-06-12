@@ -31,6 +31,9 @@
   padding: 16px;
 }
 @media only screen and (max-width: 980px) {
+  .logo {
+    font-size: 22px;
+  }
   .navbar {
     width: 100%;
     overflow-x: hidden;
