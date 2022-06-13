@@ -14,7 +14,7 @@ function Feater() {
         </a>{" "}
         |{" "}
         <a href="#about" smooth="true">
-          About
+          Projects
         </a>{" "}
         |{" "}
         <a href="#contact" smooth="true">
