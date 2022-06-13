@@ -206,9 +206,33 @@
     width: 150px;
     height: 150px;
     background-size: cover;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 70%,
+        rgba(0, 0, 0, 0.4) 80%,
+        rgba(0, 0, 0, 0.4) 90%,
+        rgba(0, 0, 0, 0.4) 95%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      url(./todo.jpg);
+  }
+  .project-right-top:hover {
+    background-image: url(./todo.jpg);
   }
   .project-right-bottom {
     width: 150px;
     height: 150px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 70%,
+        rgba(0, 0, 0, 0.4) 80%,
+        rgba(0, 0, 0, 0.4) 90%,
+        rgba(0, 0, 0, 0.4) 95%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      url(./register.jpg);
+  }
+  .project-right-bottom:hover {
+    background-image: url(./register.jpg);
   }
 }
