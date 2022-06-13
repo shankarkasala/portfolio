@@ -175,7 +175,11 @@ img {
 }
 @media only screen and (max-width: 980px) {
   .project-title {
-    display: none;
+    /* display: none; */
+    font-size: 13px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
   }
   img {
     height: 30px;
@@ -184,6 +188,7 @@ img {
   .skills {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
   .skills-box {
     max-width: 300px;
