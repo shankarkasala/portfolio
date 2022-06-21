@@ -3,10 +3,10 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import "./navbar.css";
 function Navbar() {
-  const [name, setName] = useState(null);
-  const handelClass = (data) => {
-    setName(data);
-  };
+  // const [name, setName] = useState(null);
+  // const handelClass = (data) => {
+  //   setName(data);
+  // };
   return (
     <div className="navbar">
       <h3 className="logo">.developer</h3>
@@ -18,7 +18,7 @@ function Navbar() {
             smooth={true}
             duration={100}
             // className={`${name === "home" ? "active" : ""}`}
-            onClick={() => handelClass("home")}
+            // onClick={() => handelClass("home")}
           >
             Home
           </Link>
@@ -32,7 +32,7 @@ function Navbar() {
             smooth={true}
             duration={100}
             // className={`${name === "skill" ? "active" : ""}`}
-            onClick={() => handelClass("skill")}
+            // onClick={() => handelClass("skill")}
           >
             Skills
           </Link>
@@ -45,7 +45,7 @@ function Navbar() {
             smooth={true}
             duration={100}
             // className={`${name === "about" ? "active" : ""}`}
-            onClick={() => handelClass("about")}
+            // onClick={() => handelClass("about")}
           >
             Projects
           </Link>
@@ -59,7 +59,7 @@ function Navbar() {
             smooth={true}
             duration={100}
             // className={`${name === "contact" ? "active" : ""}`}
-            onClick={() => handelClass("contact")}
+            // onClick={() => handelClass("contact")}
           >
             Contact
           </Link>
