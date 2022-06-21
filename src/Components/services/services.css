@@ -66,6 +66,7 @@ img {
     41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
     100px 100px 80px rgba(0, 0, 0, 0.07);
 }
+
 .skills-html {
   display: flex;
   align-items: center;
@@ -144,34 +145,47 @@ img {
   margin-left: 20px;
 }
 .skills-bar-javascript {
+  animation: load1 3s normal forwards;
   width: 80%;
   height: 5px;
   background-color: rgb(229, 207, 33, 1);
+  -webkit-animation: load1 3s normal forwards;
 }
+
 .skills-bar-html {
+  animation: load2 3s normal forwards;
   width: 85%;
   height: 5px;
   background-color: rgb(225, 76, 39, 1);
+  -webkit-animation: load2 3s normal forwards;
 }
 .skills-bar-css {
+  animation: load3 3s normal forwards;
   width: 85%;
   height: 5px;
   background-color: rgb(55, 154, 214, 1);
+  -webkit-animation: load3 3s normal forwards;
 }
 .skills-bar-typescript {
+  animation: load4 3s normal forwards;
   width: 50%;
   height: 5px;
   background-color: rgb(2, 114, 192, 1);
+  -webkit-animation: load4 3s normal forwards;
 }
 .skills-bar-react {
+  animation: load5 3s normal forwards;
   width: 90%;
   height: 5px;
   background-color: rgb(94, 210, 241, 1);
+  -webkit-animation: load5 3s normal forwards;
 }
 .skills-bar-materialui {
+  animation: load6 3s normal forwards;
   width: 70%;
   height: 5px;
   background-color: rgb(33, 150, 243, 1);
+  -webkit-animation: load6 3s normal forwards;
 }
 @media only screen and (max-width: 980px) {
   .project-title {
@@ -264,5 +278,53 @@ img {
     width: 140px;
     height: 3px;
     margin-left: 10px;
+  }
+}
+@keyframes load1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes load2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes load3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes load4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes load5 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes load6 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
   }
 }

@@ -23,6 +23,7 @@
   width: 75%;
   letter-spacing: 0.9px;
   font-weight: 300;
+  cursor: pointer;
 }
 .active {
   width: 5px;

@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 // import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import "./navbar.css";
 function Navbar() {
-  const [name, setName] = useState("home");
+  const [name, setName] = useState(null);
   const handelClass = (data) => {
     setName(data);
   };
@@ -11,48 +12,57 @@ function Navbar() {
       <h3 className="logo">.developer</h3>
       <ul className="nav-links">
         <li>
-          <a
-            href="#home"
-            smooth="true"
-            className={`${name === "home" ? "active" : ""}`}
+          <Link
+            to="home"
+            spy={true}
+            smooth={true}
+            duration={100}
+            // className={`${name === "home" ? "active" : ""}`}
             onClick={() => handelClass("home")}
           >
             Home
-          </a>
+          </Link>
           {/* <Link to="#home">Home</Link> */}
         </li>
+
         <li>
-          <a
-            href="#skill"
-            smooth="true"
-            className={`${name === "skill" ? "active" : ""}`}
+          <Link
+            to="skill"
+            spy={true}
+            smooth={true}
+            duration={100}
+            // className={`${name === "skill" ? "active" : ""}`}
             onClick={() => handelClass("skill")}
           >
             Skills
-          </a>
+          </Link>
           {/* <Link to="#services">Skills</Link> */}
         </li>
         <li>
-          <a
-            href="#about"
-            smooth="true"
-            className={`${name === "about" ? "active" : ""}`}
+          <Link
+            to="about"
+            spy={true}
+            smooth={true}
+            duration={100}
+            // className={`${name === "about" ? "active" : ""}`}
             onClick={() => handelClass("about")}
           >
             Projects
-          </a>
+          </Link>
           {/* <Link to="#about">About</Link> */}
         </li>
 
         <li>
-          <a
-            href="#contact"
-            smooth="true"
-            className={`${name === "contact" ? "active" : ""}`}
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            duration={100}
+            // className={`${name === "contact" ? "active" : ""}`}
             onClick={() => handelClass("contact")}
           >
             Contact
-          </a>
+          </Link>
           {/* <Link to="#contact">Contact</Link> */}
         </li>
       </ul>
