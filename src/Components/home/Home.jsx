@@ -22,6 +22,18 @@ function Home() {
           }}
         />
         {/* <p> I build things for the web.</p> */}
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </div>
     </div>
   );
