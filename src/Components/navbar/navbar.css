@@ -29,7 +29,7 @@
   width: 5px;
   height: 1px;
   background: crimson;
-  padding: 16px;
+  padding: 13px;
 }
 @media only screen and (max-width: 980px) {
   .logo {
