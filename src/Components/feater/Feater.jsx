@@ -1,25 +1,31 @@
 import React from "react";
+import { Link } from "react-scroll";
+
 import "./feater.css";
 function Feater() {
   return (
     <div className="footer">
       <p>
         {" "}
-        <a href="#home" smooth="true">
+        <Link to="home" smooth={true} duration={100}>
           Home
-        </a>{" "}
+        </Link>{" "}
         |{" "}
-        <a href="#skill" smooth="true">
+        <Link to="aboutme" smooth={true} duration={100}>
+          About
+        </Link>{" "}
+        |{" "}
+        <Link to="skill" smooth={true} duration={100}>
           Skills
-        </a>{" "}
+        </Link>{" "}
         |{" "}
-        <a href="#about" smooth="true">
+        <Link to="about" smooth={true} duration={100}>
           Projects
-        </a>{" "}
+        </Link>{" "}
         |{" "}
-        <a href="#contact" smooth="true">
+        <Link to="contact" smooth={true} duration={100}>
           Contact
-        </a>
+        </Link>
       </p>
       <p>&copy; 2022 Kasala.umasankar</p>
     </div>
