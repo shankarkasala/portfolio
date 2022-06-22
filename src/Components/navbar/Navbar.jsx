@@ -24,6 +24,19 @@ function Navbar() {
           </Link>
           {/* <Link to="#home">Home</Link> */}
         </li>
+        <li>
+          <Link
+            to="aboutme"
+            spy={true}
+            smooth={true}
+            duration={100}
+            // className={`${name === "home" ? "active" : ""}`}
+            // onClick={() => handelClass("home")}
+          >
+            About
+          </Link>
+          {/* <Link to="#home">Home</Link> */}
+        </li>
 
         <li>
           <Link

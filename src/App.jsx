@@ -6,6 +6,7 @@ import Services from "./Components/services/Services";
 import Projects from "./Components/about/Projects";
 import Contact from "./Components/contact/Contact";
 import Feater from "./Components/feater/Feater";
+import Aboutme from "./Components/Aboutme/Aboutme";
 // import Welcome from "./Components/welcome/Welcome";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             {/* <Route path="/welcome" element={<Welcome />} /> */}
+            <Route path="/aboutme" element={<Aboutme />} />
 
             <Route path="/services" element={<Services />} />
             <Route path="/about" element={<Projects />} />
@@ -31,6 +33,7 @@ function App() {
         <About />
         <Contact/> */}
       </BrowserRouter>
+      <Aboutme />
       <Services />
 
       <Projects />
