@@ -187,6 +187,12 @@ img {
   background-color: rgb(33, 150, 243, 1);
   -webkit-animation: load6 3s normal forwards;
 }
+.project-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
 @media only screen and (max-width: 980px) {
   .project-title {
     /* display: none; */

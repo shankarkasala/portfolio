@@ -5,10 +5,6 @@ import "./contact.css";
 function Contact() {
   return (
     <div className="contact" id="contact">
-      <h2 className="project-title">
-        {"<"}Contact{"/>"}
-      </h2>
-
       <div className="contact-container">
         <div className="contact-left">
           <div className="contact-text">
@@ -160,6 +156,9 @@ function Contact() {
           </div>
         </div>
       </div>
+      <h2 className="project-title">
+        {"<"}Contact{"/>"}
+      </h2>
     </div>
   );
 }
