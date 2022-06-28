@@ -53,6 +53,9 @@ h2 {
     text-align: center;
     margin: 0 auto;
     margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .home-text {
     font-size: 25px;
