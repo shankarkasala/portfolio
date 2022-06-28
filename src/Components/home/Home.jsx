@@ -1,12 +1,12 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import "./home.css";
-import Slide from "react-reveal/Slide";
+import Bounce from "react-reveal/Bounce";
 
 function Home() {
   return (
     <div className="bg-img" id="home">
-      <Slide left>
+      <Bounce top>
         <div className="text">
           <h1 className="hello">Hello,</h1>
 
@@ -38,7 +38,7 @@ function Home() {
             <li></li>
           </ul> */}
         </div>
-      </Slide>
+      </Bounce>
     </div>
   );
 }
