@@ -6,7 +6,9 @@
   box-sizing: border-box;
 }
 body {
-  background: #02152f;
+  /* background: #02152f; */
+  background: #020c41;
+  overflow-x: hidden;
 }
 html {
   font-size: 16px;
@@ -46,7 +48,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #102252;
+  /* background: #102252; */
+  background: #020c41;
   z-index: -10;
 }
 .project-title {

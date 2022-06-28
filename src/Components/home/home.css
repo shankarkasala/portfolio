@@ -7,7 +7,7 @@
       rgba(0, 0, 0, 0.4) 95%,
       rgba(0, 0, 0, 0.4) 100%
     ),
-    url(./img2.jpg);
+    url(./photo2.jpg);
   /* background-image: url(./img1.png); */
   opacity: 1;
   background-size: cover;
@@ -26,18 +26,36 @@
   text-align: left;
   margin-left: 50px;
   position: absolute;
-  top: 30%;
+  top: 20%;
   padding: 16px;
+}
+.hello {
+  font-size: 100px;
+  color: white;
 }
 h2 {
   color: crimson;
 }
+.home-text {
+  color: crimson;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
 @media only screen and (max-width: 600px) {
+  .hello {
+    font-size: 40px;
+  }
+  .animate-charcter {
+    font-size: 30px !important;
+  }
   .text {
-    font-size: 17px;
+    font-size: 15px !important;
     text-align: center;
     margin: 0 auto;
     margin-top: 50px;
+  }
+  .home-text {
+    font-size: 25px;
   }
 }
 .circles {
@@ -134,7 +152,38 @@ h2 {
   animation-delay: 0s;
   animation-duration: 11s;
 }
+.waviy {
+  position: relative;
+}
 
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #b01c5c 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite;
+  display: inline-block;
+  -webkit-animation: textclip 5s linear infinite;
+  font-size: 80px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
 @keyframes animate {
   0% {
     transform: translateY(0) rotate(0deg);

@@ -38,6 +38,7 @@ function App() {
 
       <Projects />
       <Contact />
+
       <Feater />
     </div>
   );
