@@ -52,10 +52,7 @@ h2 {
     font-size: 15px !important;
     text-align: center;
     margin: 0 auto;
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 100px;
   }
   .home-text {
     font-size: 25px;
