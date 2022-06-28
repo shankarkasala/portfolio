@@ -197,7 +197,7 @@
     display: flex;
     justify-content: center;
   }
-  img {
+  .skills-img {
     height: 30px;
     width: 30px;
   }
