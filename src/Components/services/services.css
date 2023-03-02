@@ -146,7 +146,7 @@
 }
 .skills-bar-javascript {
   animation: load1 3s normal forwards;
-  width: 80%;
+  width: 70%;
   height: 5px;
   background-color: rgb(229, 207, 33, 1);
   -webkit-animation: load1 3s normal forwards;
@@ -154,28 +154,28 @@
 
 .skills-bar-html {
   animation: load2 3s normal forwards;
-  width: 85%;
+  width: 80%;
   height: 5px;
   background-color: rgb(225, 76, 39, 1);
   -webkit-animation: load2 3s normal forwards;
 }
 .skills-bar-css {
   animation: load3 3s normal forwards;
-  width: 85%;
+  width: 80%;
   height: 5px;
   background-color: rgb(55, 154, 214, 1);
   -webkit-animation: load3 3s normal forwards;
 }
 .skills-bar-typescript {
   animation: load4 3s normal forwards;
-  width: 50%;
+  width: 60%;
   height: 5px;
   background-color: rgb(2, 114, 192, 1);
   -webkit-animation: load4 3s normal forwards;
 }
 .skills-bar-react {
   animation: load5 3s normal forwards;
-  width: 90%;
+  width: 70%;
   height: 5px;
   background-color: rgb(94, 210, 241, 1);
   -webkit-animation: load5 3s normal forwards;
