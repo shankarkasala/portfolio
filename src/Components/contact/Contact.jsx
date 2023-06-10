@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "./Cv.pdf";
+import CV from "./kasala_umasankar-Frontend-developer.pdf";
 import address from "./address.png";
 import "./contact.css";
 import Slide from "react-reveal/Slide";
